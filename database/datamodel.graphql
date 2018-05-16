@@ -1,0 +1,6 @@
+type User {
+  id: ID! @unique
+  createdAt: DateTime!
+  description: String!
+  url: String!
+}
